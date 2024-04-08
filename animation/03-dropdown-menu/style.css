@@ -17,8 +17,14 @@
   padding: 0;
   margin: 0;
   background-color: rgb(99, 97, 97);
-
+  transform-origin: top;
   display: none;
+  animation: dropping 2s;
+}
+
+@keyframes dropdown-menu{
+  0% {top:0px;}
+  25%{top:200px}
 }
 
 ul.dropdown-menu li:hover {
